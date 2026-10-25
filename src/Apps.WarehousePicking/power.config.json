@@ -24,6 +24,10 @@
         "warehouselocations": {
           "entitySetName": "lab_warehouselocations",
           "logicalName": "lab_warehouselocation"
+        },
+        "products": {
+          "entitySetName": "lab_products",
+          "logicalName": "lab_product"
         }
       },
       "environmentVariableName": ""
