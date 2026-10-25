@@ -6,5 +6,13 @@
   "publisherPrefix": "lab",
   "repo": "deantrand-png/lab",
   "mainRulesetId": 25828734,
-  "mainRulesetName": "lab-main-protection"
+  "mainRulesetName": "lab-main-protection",
+  "devEnvUrl": "https://wm-dev-5100.crm.dynamics.com",
+  "devEnvId": "834ac6ea-1f07-e7b3-a956-0ced5ff8e819",
+  "devOrgId": "b7976819-97d0-f111-be87-000d3a5cb417",
+  "devProfile": "dev",
+  "testEnvUrl": "https://wm-test-5100.crm.dynamics.com",
+  "testEnvId": "8774759b-8335-ed05-ad35-1253d6a2e00d",
+  "testOrgId": "b3976819-97d0-f111-be87-000d3a5cb429",
+  "testProfile": "test"
 }
