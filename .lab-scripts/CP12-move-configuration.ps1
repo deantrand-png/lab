@@ -1,4 +1,4 @@
-#!/usr/bin/env pwsh
+pwsh -NoProfile -File .lab-scripts/CP12-move-configuration.ps1#!/usr/bin/env pwsh
 #
 # ╔════════════════════════════════════════════════════════════════════════════════════════╗
 # ║                       CP12: Move configuration                                         ║
