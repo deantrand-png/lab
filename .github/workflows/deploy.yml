@@ -12,6 +12,9 @@ jobs:
   deploy:
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
+    environment:
+      name: production
+      url: https://ppcc26-dev-115.crm.dynamics.com
     steps:
       - uses: actions/download-artifact@v4
         with:
@@ -27,15 +30,14 @@ jobs:
         env:
           AZURE_CLIENT_ID: 5ebc3b00-aaa0-46b9-9c4b-4128c45f2267
           AZURE_TENANT_ID: 957a313a-971b-4add-b513-038b581bc3e7
-          DATAVERSE_TEST_URL: https://wm-test-5100.crm.dynamics.com
+          DATAVERSE_PROD_URL: https://ppcc26-dev-115.crm.dynamics.com
         run: |
           txc config auth add-federated --alias ci --tenant $AZURE_TENANT_ID --application-id $AZURE_CLIENT_ID
-          txc config connection create test --provider Dataverse --url $DATAVERSE_TEST_URL
-          txc config profile create --name ci --auth ci --connection test
+          txc config connection create prod --provider Dataverse --url $DATAVERSE_PROD_URL
+          txc config profile create --name ci --auth ci --connection prod
 
       - name: Import TALXIS Grid control package
         run: txc env pkg import TALXIS.Controls.Grid.Package --profile ci
 
-      - name: Deploy package to Test environment
+      - name: Deploy package to PPCC26 PROD environment
         run: txc env pkg import ./drop/Packages.Main.pdpkg.zip --profile ci
-
