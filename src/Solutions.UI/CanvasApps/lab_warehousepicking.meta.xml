@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>lab_warehousepicking</Name>
-  <AppVersion>2026-10-25T19:01:10Z</AppVersion>
+  <AppVersion>2026-10-25T20:07:01Z</AppVersion>
   <Status>Ready</Status>
   <CreatedByClientVersion>0.0.0.0</CreatedByClientVersion>
   <MinClientVersion>0.0.0.0</MinClientVersion>
@@ -14,7 +14,7 @@
   <CommitMessage xsi:nil="true"></CommitMessage>
   <Publisher xsi:nil="true"></Publisher>
   <AuthorizationReferences>[]</AuthorizationReferences>
-  <ConnectionReferences>{}</ConnectionReferences>
+  <ConnectionReferences>{"11199abc-00c6-4341-9276-34ff41e1ef57":{"id":"/providers/Microsoft.PowerApps/apis/shared_lab-5fopen-20food-20facts-5ff53fcdbb56cf3378","displayName":"Open Food Facts","dataSources":["lab_5fopen_20food_20facts_5ff53fcdbb56cf3378"],"dataSets":{}}}</ConnectionReferences>
   <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified","environmentVariableName":""}},"dataSources":{"warehouseitems":{"entitySetName":"lab_warehouseitems","logicalName":"lab_warehouseitem"},"warehousetransactions":{"entitySetName":"lab_warehousetransactions","logicalName":"lab_warehousetransaction"},"warehouselocations":{"entitySetName":"lab_warehouselocations","logicalName":"lab_warehouselocation"},"products":{"entitySetName":"lab_products","logicalName":"lab_product"}}}}</DatabaseReferences>
   <AppComponents>[]</AppComponents>
   <AppComponentDependencies>[]</AppComponentDependencies>
@@ -28,7 +28,7 @@
   <IsCustomizable>1</IsCustomizable>
   <CodeAppPackageUris>
     <CodeAppPackageUri>/CanvasApps/lab_warehousepicking_CodeAppPackages/index.html_ContentType_text/html</CodeAppPackageUri>
-    <CodeAppPackageUri>/CanvasApps/lab_warehousepicking_CodeAppPackages/assets/index-DSag0LpB.js_ContentType_application/javascript</CodeAppPackageUri>
+    <CodeAppPackageUri>/CanvasApps/lab_warehousepicking_CodeAppPackages/assets/index-C9ArZ6fd.js_ContentType_application/javascript</CodeAppPackageUri>
     <CodeAppPackageUri>/CanvasApps/lab_warehousepicking_CodeAppPackages/assets/index-DkhqlnE_.css_ContentType_text/css</CodeAppPackageUri>
     <CodeAppPackageUri>/CanvasApps/lab_warehousepicking_CodeAppPackages/fonts/fabric-icons-0-467ee27f.woff_ContentType_font/woff</CodeAppPackageUri>
     <CodeAppPackageUri>/CanvasApps/lab_warehousepicking_CodeAppPackages/fonts/fabric-icons-1-4d521695.woff_ContentType_font/woff</CodeAppPackageUri>
