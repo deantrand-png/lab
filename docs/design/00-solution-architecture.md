@@ -184,7 +184,7 @@ Add `--profile <environment profile>` to each `txc` command when more than one e
 | Gate | What it checks | Where |
 |---|---|---|
 | Build | `dotnet build WarehouseManagement.slnx` | `build.yml` on pull requests and pushes to `main` (also publishes the `.pdpkg.zip`) |
-| Deploy to Test | Grid package, then the main package | `deploy.yml`, after a green build on `main` |
+| Deploy to PPCC26 PROD | Required approval via the GitHub `production` environment, then Grid package and main package | `deploy.yml`, after a green build on `main` |
 
 ## Responsibilities by area
 

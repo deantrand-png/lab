@@ -125,6 +125,8 @@ It prints two links. Open the **Local Play** one, which starts with `https://app
 
 If the Local Play page stays blank or can't load the app (this can happen when the Codespace runs in your browser), use the copy CP10 deployed instead: open https://make.powerapps.com, pick your **Dev** environment, go to **Apps**, and play **Warehouse Picking**.
 
+For barcode testing in a browser-based Codespace, the deployed CP10 copy does not include the CP11 barcode UI. The Warehouse Picking dev server prints a Codespaces-forwarded Local Play URL instead. In the Codespace **Ports** tab, temporarily set port **5173** visibility to **Public** so the Power Apps player can reach the app; return it to **Private** when finished. A public port exposes the running local app and its source while the server is active.
+
 ## Part 5: Protect `main`
 
 > Run checkpoint 13.

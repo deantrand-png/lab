@@ -9,7 +9,7 @@
   <PropertyGroup Label="Dataverse solution metadata">
     <PublisherName>TALXISLab</PublisherName>
     <PublisherPrefix>lab</PublisherPrefix>
-    <Version>1.0.0</Version>
+    <Version>1.1.0</Version>
   </PropertyGroup>
   <Target Name="Publish" />
 </Project>
