@@ -8,9 +8,9 @@ export * as CommonModels from './models/CommonModels';
 export * as Lab_warehouseitemsModel from './models/Lab_warehouseitemsModel';
 export * as Lab_warehousetransactionsModel from './models/Lab_warehousetransactionsModel';
 export * as Lab_warehouselocationsModel from './models/Lab_warehouselocationsModel';
-
-
+export * as Lab_productsModel from './models/Lab_productsModel';
 // Services
 export * from './services/Lab_warehouseitemsService';
 export * from './services/Lab_warehousetransactionsService';
 export * from './services/Lab_warehouselocationsService';
+export * from './services/Lab_productsService';
